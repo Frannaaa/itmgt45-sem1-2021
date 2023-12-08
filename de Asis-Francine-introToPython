@@ -23,9 +23,9 @@
    "source": [
     "## Student Details\n",
     "\n",
-    "ID Number:  \n",
-    "Surname:  \n",
-    "Year and Course:  "
+    "ID Number: 221927  \n",
+    "Surname: de Asis  \n",
+    "Year and Course: 2 BS ITE  "
    ]
   },
   {
@@ -37,19 +37,7 @@
    "source": [
     "## Problem 1 (5 points)\n",
     "\n",
-    "This is the only problem in this assignment.  \n",
-    "\n",
-    "Overall prompt:  \n",
-    "**Write a program that prompts the user to input three positive integers and outputs the average of those three positive integers.**  \n",
-    "\n",
-    "The program must follow these specifications:  \n",
-    "1. Accept the user's input numbers one at a time. Use this format:  \n",
-    "`Enter first number: {firstnumber}`  \n",
-    "`Enter second number: {secondnumber}`  \n",
-    "`Enter third number: {thirdnumber}`  \n",
-    "2. The output should display using this format:  \n",
-    "`The average is {average}.`  \n",
-    "3. The program must, at some point, call a function called `three_number_average` that accepts three arguments and returns the average of those three arguments.  \n"
+    "Write a program that prompts the user to input three positive integers and outputs the average of those three positive integers."
    ]
   },
   {
@@ -68,7 +56,6 @@
     "    third_number = int(input(\"Enter third number: \"))",
     "\n",
     "    average = three_number_average(first_number, second_number, third_number)",
-    "\n",
     "    print(f\"The average is {average}\")",
     "\n",
     "if __name__ == \"__main__\":",
